@@ -1,11 +1,6 @@
 #Class test not getting executed may be due to fixtures confusion
-import pytest
-from pytest import mark
-from allure_commons import fixture
-
 
 class Test_1:
-
 
     def test_m1(self):
         print('testing1')
